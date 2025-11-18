@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gmail Clone</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+        <div id="fullUI">
+                <div id="viewAll">
+                        <div id="errorMessage" style="display: none;"></div>
+                        <div id="emailContainer">
+                                <div class="emailRow">
+                                  <div class="emailBase">
+                                    <div class="emailRA">
+                                      <div class="emailGrad">
+                                        <div class="rectangle12"></div>
+                                      </div>
+                                      <div class="component">
+                                        <div class="time">${formattedDate}</div>
+                                      </div>
+                                    </div>
+                                    <div class="subpre">
+                                      <div class="categorybadge"></div>
+                                      <div class="subplace"></div>
+                                      <div class="text"></div>
+                                      <div class="preview"></div>
+                                    </div>
+                                  </div>
+                                </div>
+                               
+                        </div>
+                        <div id="view">
+                                <div id="actionmenu">
+                                        <img src="icons/Pagination.png" id="pagination">
+                                        <div id="leftarrow">
+                                                <img src="icons/vecla.png" id="vecla">
+                                        </div>
+                                        <div id="rightarrow">
+                                                <img src="icons/vecra.png" id="vecra">
+                                        </div>
+                                </div>
+                                <div class="category">
+                                        <div class="gmail-tabs">
+                                                <div class="tab active" id="tab-Primary"> 
+                                                  <span class="icon">
+                                                        <img src="icons/prim.png" alt="Primary icon" class="tab2"/>
+                                                  </span>
+                                                  <span class="label">Primary</span>
+                                                </div>
+                                              
+                                                <div class="tab" id="tab-Social">
+                                                  <span class="icon">
+                                                    <img src="icons/soci.png" alt="Social icon" class="tab2"/>
+                                                  </span>
+                                                  <span class="label">Social</span>
+                                                </div>
+                                              
+                                                <div class="tab" id="tab-Promotions">
+                                                  <span class="icon">
+                                                        <img src="icons/promo.png" alt="Promotions icon" class="tab2"/>
+                                                  </span>
+                                                  <span class="label">Promotions</span>
+                                                </div>
+                                              
+                                                <div class="tab" id="tab-Updates">
+                                                  <span class="icon">
+                                                        <img src="icons/upda.png" alt="Updates icon" class="tab2"/>
+                                                  </span>
+                                                  <span class="label">Updates</span>
+                                                </div>
+                                        </div>
+
+                                              
+                                </div>                                      
+                        </div>
+                        <header id="header">
+                                <div id="logo_hamburger">
+                                        <img src="icons/thholi.png" alt="gmail logo" class="logo">
+                                        <img src="icons/gmaillogo.png" alt="gmail logo" class="logo">
+                                </div>
+                                <div id="search_bar">
+                                        <div id="frame17">
+                                                <div id="search">
+                                                        <img src="icons/searchicon.png" id="searchicon" alt="searchicon">
+                                                </div>
+                                                <div id="actsearch">Search mail</div>
+                                        </div>
+                                        <div id="arrow">
+                                                <img src="icons/image.png" id="arrowicon" alt="arrowicon">
+                                        </div>
+                                </div>
+                                <div id="right">
+                                        <img src="icons/Right.png" id="righticon" alt="rightlogo">
+                                </div>
+                        </header>
+                        <div id="vertical-spacer"></div>
+                        <div id="right_sidebar">
+                                <div id="line_arrow"></div>
+                                <div id="frame10"></div>
+                        </div>
+                        <div id="frame9">
+                                <div id="meetmenu"></div>
+                                <div id="frame8">
+                                        <img src="icons/composelogo.png" id="composelogo" alt="PlusIcon">
+                                        <span id="compose">Compose</span>
+                                </div>
+                                <div id="sidenav">
+                                        <div class="sidebar-item" id="inbox">
+                                                <div class="submenu">
+                                                    <img src="icons/iframe3.png" class="frame3">
+                                                    <span class="sub-item">Inbox</span>
+                                                    <div class="sub-item1" id="iT"></div>
+                                                </div>                                                    
+                                        </div>
+                                            
+                                        <div class="sidebar-item" id="starred">
+                                                <div class="submenu">
+                                                    <img src="icons/sframe3.png" class="frame3">
+                                                    <span class="sub-item">Starred</span>
+                                                    <div class="sub-item1" id="sT"></div>
+                                                </div>     
+                                        </div>
+                                            
+                                        <div class="sidebar-item" id="snoozed">
+                                                <div class="submenu">
+                                                    <img src="icons/dframe3.png" class="frame3">
+                                                    <span class="sub-item">Snoozed</span>
+                                                    <div class="sub-item1" id="dT"></div>
+                                                </div>    
+                                        </div>
+                                            
+                                        <div class="sidebar-item" id="sent">
+                                                <div class="submenu">
+                                                    <img src="icons/tframe3.png" class="frame3">
+                                                    <span class="sub-item">Sent</span>
+                                                    <div class="sub-item1" id="tT"></div>
+                                                </div>     
+                                        </div>
+                                            
+                                        <div class="sidebar-item" id="drafts">
+                                                <div class="submenu">
+                                                    <img src="icons/fframe3.png" class="frame3">
+                                                    <span class="sub-item">Drafts</span>
+                                                    <div class="sub-item1" id="fT"></div>
+                                                </div>     
+                                        </div>
+                                            
+                                        <div class="sidebar-item" id="spam">
+                                                <div class="submenu">
+                                                    <img src="icons/mframe3.png" class="frame3">
+                                                    <span class="sub-item">Spam</span>
+                                                    <div class="sub-item1" id="mT"></div>
+                                                </div>     
+                                        </div>
+                                            
+                                        <div class="sidebar-item" id="trash">
+                                                <div class="submenu">
+                                                    <img src="icons/hframe3.png" class="frame3">
+                                                    <span class="sub-item">Trash</span>
+                                                    <div class="sub-item1" id="hT"></div>
+                                                </div>     
+                                        </div>
+                                            
+                                        <div class="sidebar-item" id="categories">
+                                                <div class="submenu">
+                                                    <img src="icons/cframe3.png" class="frame3">
+                                                    <span class="sub-item">Categories</span>
+                                                    <div class="sub-item1" id="cT"></div>
+                                                </div>     
+                                        </div>
+                                            
+                                        <div class="sidebar-item" id="more">
+                                                <div class="submenu">
+                                                    <img src="icons/eframe3.png" class="frame3">
+                                                    <span class="sub-item">More</span>
+                                                    <div class="sub-item1" id="eT"></div>
+                                                </div>     
+                                        </div>
+                                            
+                                </div>
+                                <div id="frame7"></div>
+                        </div>
+                </div>
+        </div>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>

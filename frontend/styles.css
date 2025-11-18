@@ -1,0 +1,592 @@
+#fullUI {
+        width: 1440px;
+        height: 972px;
+        position: relative;
+}
+#viewAll {
+        width: 1440px;
+        height: 900px;
+        position: relative;
+        display: flex;
+}
+#errorMessage {
+        width: 100%;
+        background-color: #ffdddd;
+        color: #d8000c;
+        padding: 12px 0;
+        text-align: center;
+        font-weight: 600;
+        border: 1px solid #d8000c;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        font-family: 'Roboto', sans-serif;
+}
+#emailContainer {
+        position: relative;
+        top: 177px;
+        left: 248px;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        width: 1192px;
+}
+.emailRow {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        gap: 10px;
+        width: 100%;
+        box-sizing: border-box;
+        transition: background-color 0.2s ease;
+        position: relative;
+        border: 1px solid #ddd;
+}
+.delete-icon {
+        position: absolute;
+        right: 106px; /* Position it on the right side */
+        display: none; /* Hide the icon by default */
+        cursor: pointer;
+}
+.emailRow:hover {
+        background-color: #E6EAEA;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+.emailRow:hover .delete-icon {
+        display: block; /* Make the icon visible on hover */
+}
+.emailBase {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        width: 100%;
+        height: 38px;
+        box-sizing: border-box;
+}
+.subpre {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 1154px;
+        height: 100%;
+        overflow: hidden;
+        margin-left: 10px;
+        padding: 0;
+}
+.emailRA {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: auto;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+}
+.emailGrad {
+        width: 16px;
+        height: 100%;
+}
+.rectangle12 {
+        width: 100%;
+        height: 100%;
+}
+.component {
+        position: relative;
+        width: 80px;
+        height: 34px;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+}
+.time {
+        position: absolute;
+        right: 0;
+        width: auto;
+        height: 17px;
+        font-family: Roboto, sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 120%;
+        letter-spacing: -1%;
+        color: #0000008A;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+}
+.subplace {
+        width: 300px;
+        height: 16px;
+        font-family: Roboto, sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        color: #0000008A;
+        margin-right: 30px;
+}
+.text {
+        width: 4px;
+        height: 16px;
+}
+.preview {
+        width: 1049px;
+        height: 16px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        font-family: Roboto, sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 100%;
+        letter-spacing: 0%;
+}
+#menu {
+        width: 18px;
+        height: 12px;
+        top: 6px;
+        left: 3px;
+        text-align: center;
+        display: flex;
+        margin-bottom: 10px;
+}
+#vector {
+        width: 24px;
+        height: 24px;
+}
+#logo_hamburger {
+        display: flex;
+        align-items: center;
+        width: 169px;
+        height: 56px;
+        top: 4px;
+        left: 8px;
+        padding: 8px;
+        gap: 20px;
+}
+.logo {
+        width: 109px;
+        height: 40px;
+}
+#header {
+        color: #FFFFFF;
+        width: 1440px;
+        height: 64px;
+        align-items: center;
+        display: flex;
+        position: absolute;
+        top: 0px;
+        box-shadow: 0px 0.5px 0px 0px #00000026;
+}
+#search_bar {
+        background-color: #F1F3F4;
+        width: 720px;
+        height: 46px;
+        top: 9px;
+        left: 248px;
+        display: flex;
+        align-items: center;
+        border-radius: 8px;
+        padding: 0 12px;
+        position: absolute;
+}
+#frame17 {
+        width: 127px;
+        height: 24px;
+        top: 11px;
+        left: 17px;
+        gap: 20px;
+        align-items: center;
+        display: flex;
+        margin-left: 15px;
+}
+#search {
+        width: 24px;
+        height: 24px;
+        align-items: center;
+        display: flex;
+}
+#searchicon {
+        color: #0000008A;
+        width: 17.49px;
+        height: 17.49px;
+        top: 3px;
+        left: 3px;
+}
+#actsearch {
+        width: 83px;
+        height: 19px;
+        color: #0000008A;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        white-space: nowrap;
+}
+#arrow {
+        width: 22px;
+        height: 22px;
+        top: 12px;
+        left: 688px;
+        margin-left: auto;
+}
+#arrowicon {
+        width: 9.17px;
+        height: 4.58px;
+        top: 12.983px;
+        left: 6.42px;
+}
+#righticon {
+        width: 160px;
+        height: 40px;
+        top: 12px;
+        margin-left: auto;
+        margin-right: 20px;
+        left: 1262px;
+        position: absolute;
+}
+#vertical-spacer {
+        width: 16px;
+        height: 732px;
+        position: absolute;
+        top: 168px;
+        left: 1368px;
+}
+#right_sidebar {
+        width: 56px;
+        height: 836px;
+        position: absolute;
+        top: 64px;
+        left: 1384px;
+}
+#line_arrow {
+        width: 22px;
+        height: 22px;
+        position: absolute;
+        top: 797px;
+        left: 17px;
+}
+#frame10 {
+        width: 20px;
+        height: 270px;
+        top: 24px;
+        left: 18px;
+        gap: 34px;
+        position: absolute;
+}
+#frame9 {
+        position: absolute;
+        width: 248px;
+        height: 836px;
+        top: 64px;
+}
+#meetmenu {
+        width: 248px;
+        height: 212px;
+        top: 624px;
+        padding-top: 4px;
+        padding-bottom: 16px;
+        gap: 8px;
+        position: absolute;
+}
+#sidenav {
+        position: relative;
+        width: 232px;
+        height: 288px;
+        top: 32px;
+        display: flex;
+        flex-direction: column;
+        overflow-y: auto;
+        gap: 0px;
+}
+#frame8 {
+        position: relative;
+        width: 126px;
+        height: 48px;
+        top: 15px;
+        left: 8px;
+        border-radius: 40px;
+        box-shadow: 0px 1px 3px 1px #00000026;
+}
+#composelogo {
+        position: absolute;
+        top: 12px;
+        left: 12px;
+        Width: 24px;
+        Height: 24px;
+}
+#compose {
+        position: absolute;
+        top: 16px;
+        left: 52px;
+        width: 54px;
+        height: 16px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 100%;
+        letter-spacing: -1%;
+        color: #3D4043;
+}
+#frame7 {
+        position: absolute;
+        width: 142px;
+        height: 47px;
+        top: 16px;
+        left: 8px;
+}
+.sidebar-item {
+        width: 232px;
+        height: 32px;
+        border-top-right-radius: 32px;
+        border-bottom-right-radius: 32px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        padding: 0 12px;
+        box-sizing: border-box;
+        overflow: hidden;
+}
+.submenu {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        width: 100%;
+        height: 100%;
+}
+.sub-item {
+        width: 69px;
+        height: 16px;
+        background-color: transparent;
+}
+.sub-item1 {
+        width: 7px;
+        height: 14px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 100%;
+        letter-spacing: 0px;
+        text-align: right;
+}
+.sidebar-item:hover {
+        background-color: #F9E9E7;
+        cursor: pointer;
+}
+#inbox {
+        background-color: #F9E9E7;
+}
+#iframe3 {
+        width: 89px;
+        height: 22px;
+}
+#sframe3 {
+        width: 100px;
+        height: 22px;
+}
+#dframe3 {
+        width: 109px;
+        height: 22px;
+}
+#tframe3 {
+        width: 83px;
+        height: 22px;
+}
+#fframe3 {
+        width: 93px;
+        height: 22px;
+}
+#mframe3 {
+        width: 91px;
+        height: 22px;
+}
+#hframe3 {
+        width: 89px;
+        height: 22px;
+}
+#cframe3 {
+        width: 123px;
+        height: 22px;
+}
+#eframe3 {
+        width: 87px;
+        height: 22px;
+}
+.frame3 {
+        position: relative;
+        top: 2px;
+        width: 38px;
+        height: 22px;
+}
+#view {
+        width: 1120px;
+        height: 102px;
+        top: 64px;
+        left: 248px;
+        position: absolute;
+}
+#actionmenu {
+        position: absolute;
+        width: 1120px;
+        height: 48px;
+        box-shadow: 0px -1px 0px 0px #EDEFF1 inset;
+}
+#pagination {
+        position: relative;
+        width: 103px;
+        height: 32px;
+        left: 933px;
+        padding: 8px;
+}
+#leftarrow {
+        width: 22px;
+        height: 22px;
+        top: 13px;
+        left: 1051px;
+        position: absolute;
+}
+#rightarrow {
+        width: 22px;
+        height: 22px;
+        top: 13px;
+        left: 1088px;
+        position: absolute;
+}
+#vecla {
+        width: 6.79px;
+        height: 11px;
+        top: 5.5px;
+        left: 7.33px;
+        position: absolute;
+}
+#vecra {
+        width: 6.79px;
+        height: 11px;
+        top: 5.5px;
+        left: 7.33px;
+        position: absolute;
+}
+.category {
+        position: absolute;
+        width: 1120px;
+        height: 54px;
+        top: 48px;
+        display: flex;
+        align-items: center;
+}
+.gmail-tabs {
+        display: flex;
+        border-bottom: 1px solid #ddd;
+        padding: 0 20px;
+        background-color: #fff;
+        margin-top: 20px;
+        font-family: 'Roboto', sans-serif;
+}
+.tab {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 253px;
+        height: 54px;
+        margin-right: 16px;
+        font-size: 14px;
+        color: #5f6368;
+        cursor: pointer;
+        border-bottom: 3px solid transparent;
+        transition: all 0.2s ease;
+}
+.tab.active {
+        color: #d93025;
+        font-weight: 500;
+        position: relative;
+        border-bottom: none;
+}
+.tab.active::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background-color: #d93025;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        bottom: -3.5px;
+}
+.icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 22px;
+        height: 22px;
+        margin-right: 6px;
+        font-size: 18px;
+        line-height: 1;
+}
+.categoryBox {
+        font-size: 12px;
+        font-weight: bold;
+        padding: 1px 3px;
+        margin-right: 8px;
+        border-radius: 4px;
+        display: inline-block;
+        vertical-align: middle;
+        color: white;
+}
+.categoryBox.promotions {
+        background-color: #98D7E4;
+}
+.categoryBox.updates {
+        background-color: #FB4C2F;
+}
+.unread-count {
+        font-size: 12px;
+        font-weight: bold;
+        padding: 4px 8px;
+        border-radius: 4px;
+        display: inline-block;
+        margin-left: 8px;
+        color: white;
+        text-align: center;
+        white-space: nowrap;
+}
+.unread-count.social {
+        background-color: #3474E0;
+}
+.unread-count.promotions {
+        background-color: #3C7D40;
+}
+.unread-count.updates {
+        background-color: #ddd;
+        color: black;
+}
+.unread-count.primary {
+        background-color: #C84031;
+}
+/* Star icon on the left */
+.star-icon-left {
+        display: inline-block;
+        margin-right: 10px;
+        vertical-align: middle;
+      }
+      
+      .star-icon-left img {
+        width: 16px;
+        height: 16px;
+        cursor: pointer;
+      }
+      
+      /* Small button for Mark as Read */
+      .small-button {
+        font-size: 12px;
+        padding: 4px 8px;
+        background-color: #f1f1f1;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      .small-button:hover {
+        background-color: #e0e0e0;
+      }
