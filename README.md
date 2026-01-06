@@ -28,9 +28,9 @@ This project is a Gmail-inspired email inbox application that replicates core em
 
 ##  Core Functionalities
 
-Create Mail : Compose and store new emails
-Read Mail : Open emails and update read status
-Star Mail : Toggle star state
-Delete Mail : Remove emails from inbox
-Inbox UI : Structured Gmail-like layout 
+- Create Mail : Compose and store new emails
+- Read Mail : Open emails and update read status
+- Star Mail : Toggle star state
+- Delete Mail : Remove emails from inbox
+- Inbox UI : Structured Gmail-like layout 
 
